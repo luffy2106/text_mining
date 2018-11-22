@@ -1,0 +1,16 @@
+All scripts require Python 2.7 to run. 
+Required libraries: textblob, nltk, igraph.
+
+The folder contains following scripts:
+
+1. main.py: script to create a prediction for testing_set by the syntax "python main.py <file_to_store_results>"
+2. tools.py:  script containing functions read/write files, to test performance of algorithms,..
+3. text_preprocessing.py: script containing functions to clean texts.
+4. abstract.py: scripts containing functions to clean abstracts and extract features.
+5. title.py: scripts containing functions to clean titles and extract features.
+6. author.py: scripts containing functions to clean authors, create a graph of authors and extract features.
+7. journal.py: scripts containing functions to clean journals, create a graph of journals and extract features.
+8. paper.py: scripts containing functions to create a graph of papers and extract features from it.
+9. adaboost.py: an implementation of adaboost.
+10. my_tfidf.py: script containing a class to compute tf-idf. It supports some normalizations of tf which are not available in sci-kit learn.
+11. cross_validation: an implementation of V-fold cross validation to test performance of algorithms
